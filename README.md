@@ -1,4 +1,4 @@
-# Advanced featue engenireeng with pyspark on raw data of stocks
+# Advanced Feature Engineering of Raw Data of Stocks with PySpark
 
 * The notebook contains processing of quotes of several stocks that I downloaded from the site http://firstratedata.com.
 * I built features and labels in a recursive matter using historical data. The features and labels engineering is performed by pyspark on an AWS cluster, so the processing is completely parallel, and can process huge data volumes.
